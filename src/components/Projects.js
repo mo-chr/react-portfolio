@@ -1,42 +1,37 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
+import dreamRun from "../assets/img/dreamRun.png";
+import baladeh from "../assets/img/baladeh.png";
+import austy from "../assets/img/austy.png";
+import restaurant from "../assets/img/restaurant.png";
 import TrackVisibility from "react-on-screen";
 
 export const Projects = () => {
   const projects = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
+      title: "Dream Run",
+      description:
+        "Mobile Game using unity Dream Run is Available on the Play Store!\nTechnologies used : Unity (C#) , Aesprite(PixelArt)",
+      imgUrl: dreamRun,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
+      title: "Austy Personal Assistant",
+      description:
+        "Worked with a group of my university friends on an AIPersonal Assistantwhich utilized GPT-3 newest model 'Davinci' which helped students obtain information from the mainUniversity website such as their grades and schedules.Technologies Used : Flask , GPT-3 API , Azure Cloud,Python (web scrapping) , PostgreSQL",
+      imgUrl: austy,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
+      title: "Baladeh",
+      description:
+        "Android E-commerce app using Android Studio Solo worked on an android app which is an E-Commerce app for local shops in Lebanon where the name ``Baladeh`` Came to be, It was also connected to a local Database(MySql). Technologies Used: Android Studio, MySQL.",
+      imgUrl: baladeh,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
+      title: "Restaurant WebApp",
+      description:
+        "Solo Worked on a website for a virtual restaurant, and integrated a python API that I made to Auto Generate QR codes, these QR codes are then displayed under the name of each dish on the menu. Added an Admin Panel with CRUD options. Technologies Used: PHP,Python, HTML5,CSS",
+      imgUrl: restaurant,
     },
   ];
 
@@ -53,13 +48,7 @@ export const Projects = () => {
                   }
                 >
                   <h2>Projects</h2>
-                  <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book.
-                  </p>
+                  <p>Take a look at some of the projects I worked on!</p>
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Nav
                       variant="pills"
@@ -89,23 +78,11 @@ export const Projects = () => {
                           })}
                         </Row>
                       </Tab.Pane>
-                      <Tab.Pane eventKey="section">
-                        <p>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Cumque quam, quod neque provident velit, rem
-                          explicabo excepturi id illo molestiae blanditiis,
-                          eligendi dicta officiis asperiores delectus quasi
-                          inventore debitis quo.
-                        </p>
+                      <Tab.Pane eventKey="second">
+                        <p>More Projects coming soon...</p>
                       </Tab.Pane>
                       <Tab.Pane eventKey="third">
-                        <p>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Cumque quam, quod neque provident velit, rem
-                          explicabo excepturi id illo molestiae blanditiis,
-                          eligendi dicta officiis asperiores delectus quasi
-                          inventore debitis quo.
-                        </p>
+                        <p>More Projects coming soon...</p>
                       </Tab.Pane>
                     </Tab.Content>
                   </Tab.Container>
