@@ -5,6 +5,7 @@ import dreamRun from "../assets/img/dreamRun.png";
 import baladeh from "../assets/img/baladeh.png";
 import austy from "../assets/img/austy.png";
 import restaurant from "../assets/img/restaurant.png";
+import easyBank from "../assets/img/easyBank.png";
 import TrackVisibility from "react-on-screen";
 
 export const Projects = () => {
@@ -32,6 +33,12 @@ export const Projects = () => {
       description:
         "Solo Worked on a website for a virtual restaurant, and integrated a python API that I made to Auto Generate QR codes, these QR codes are then displayed under the name of each dish on the menu. Added an Admin Panel with CRUD options. Technologies Used: PHP,Python, HTML5,CSS",
       imgUrl: restaurant,
+    },
+    {
+      title: "EasyBank Frontend Mentor Challenge",
+      description:
+        "This site was a Frontend Mentor Challenge which I participated in, where design images are provided by the Frontend Mentor Website and we're asked to mimic the design template using Basic HTML and CSS Technologies Used: HTML5,SASS,JS",
+      imgUrl: easyBank,
     },
   ];
 
