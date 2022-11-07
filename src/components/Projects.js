@@ -16,36 +16,42 @@ export const Projects = () => {
       description:
         "Mobile Game using unity Dream Run is Available on the Play Store!\nTechnologies used : Unity (C#) , Aesprite(PixelArt)",
       imgUrl: dreamRun,
+      link: "",
     },
     {
       title: "Austy Personal Assistant",
       description:
         "Worked with a group of my university friends on an AIPersonal Assistantwhich utilized GPT-3 newest model 'Davinci' which helped students obtain information from the mainUniversity website such as their grades and schedules.Technologies Used : Flask , GPT-3 API , Azure Cloud,Python (web scrapping) , PostgreSQL",
       imgUrl: austy,
+      link: "",
     },
     {
       title: "Baladeh",
       description:
         "Android E-commerce app using Android Studio Solo worked on an android app which is an E-Commerce app for local shops in Lebanon where the name ``Baladeh`` Came to be, It was also connected to a local Database(MySql). Technologies Used: Android Studio, MySQL.",
       imgUrl: baladeh,
+      link: "",
     },
     {
       title: "Restaurant WebApp",
       description:
         "Solo Worked on a website for a virtual restaurant, and integrated a python API that I made to Auto Generate QR codes, these QR codes are then displayed under the name of each dish on the menu. Added an Admin Panel with CRUD options. Technologies Used: PHP,Python, HTML5,CSS",
       imgUrl: restaurant,
+      link: "",
     },
     {
       title: "EasyBank Frontend Mentor Challenge",
       description:
         "This site was a Frontend Mentor Challenge which I participated in, where design images are provided by the Frontend Mentor Website and we're asked to mimic the design template using Basic HTML and CSS Technologies Used: HTML5,SASS,JS",
       imgUrl: easyBank,
+      link: "https://easybank-ladicius.netlify.app/",
     },
     {
       title: "Dream Movies",
       description:
         "The idea behind Dream Movies is to create an IMDb-like site for movies. the site is still under development and will improve more over time. It's created using basic HTML5 and css as well as React. Technologies Used: React base,HTML5,CSS",
       imgUrl: dreamMovies,
+      link: "https://dreammovies.herokuapp.com/",
     },
   ];
 
