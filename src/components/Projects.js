@@ -6,6 +6,7 @@ import baladeh from "../assets/img/baladeh.png";
 import austy from "../assets/img/austy.png";
 import restaurant from "../assets/img/restaurant.png";
 import easyBank from "../assets/img/easyBank.png";
+import dreamMovies from "../assets/img/dreamMovies.png";
 import TrackVisibility from "react-on-screen";
 
 export const Projects = () => {
@@ -39,6 +40,12 @@ export const Projects = () => {
       description:
         "This site was a Frontend Mentor Challenge which I participated in, where design images are provided by the Frontend Mentor Website and we're asked to mimic the design template using Basic HTML and CSS Technologies Used: HTML5,SASS,JS",
       imgUrl: easyBank,
+    },
+    {
+      title: "Dream Movies",
+      description:
+        "The idea behind Dream Movies is to create an IMDb-like site for movies. the site is still under development and will improve more over time. It's created using basic HTML5 and css as well as React. Technologies Used: React base,HTML5,CSS",
+      imgUrl: dreamMovies,
     },
   ];
 
