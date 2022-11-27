@@ -52,7 +52,7 @@ export const Projects = () => {
       description:
         "The idea behind Dream Movies is to create an IMDb-like site for movies. the site is still under development and will improve more over time. It's created using basic HTML5 and css as well as React. Technologies Used: React base,HTML5,CSS",
       imgUrl: dreamMovies,
-      link: "https://dreammovies.herokuapp.com/",
+      link: "https://movies-info-using-react.pages.dev/",
     },
     {
       title: "SyncTale",
