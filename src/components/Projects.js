@@ -8,7 +8,8 @@ import restaurant from "../assets/img/restaurant.png";
 import easyBank from "../assets/img/easyBank.png";
 import dreamMovies from "../assets/img/dreamMovies.png";
 import TrackVisibility from "react-on-screen";
-
+import synctale from "../assets/img/Promogates-Maintenance-Page.png";
+import promogates from "../assets/img/Synctale-Landing-page.png";
 export const Projects = () => {
   const projects = [
     {
@@ -52,6 +53,20 @@ export const Projects = () => {
         "The idea behind Dream Movies is to create an IMDb-like site for movies. the site is still under development and will improve more over time. It's created using basic HTML5 and css as well as React. Technologies Used: React base,HTML5,CSS",
       imgUrl: dreamMovies,
       link: "https://dreammovies.herokuapp.com/",
+    },
+    {
+      title: "SyncTale",
+      description:
+        "SyncTale's landing page is Made using React JS as a practice project for my MERN stack learning roadmap. Technologies Used: React JS,HTML5,CSS",
+      imgUrl: synctale,
+      link: "https://synctale-website.pages.dev/",
+    },
+    {
+      title: "PromoGates Maintenance Page",
+      description:
+        " This worked on this as a part time job for the company in charge of PromoGate's website using desings provided.Technologies Used: JS,HTML5,CSS",
+      imgUrl: promogates,
+      link: "https://promogates.pages.dev/",
     },
   ];
 
