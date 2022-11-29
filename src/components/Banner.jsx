@@ -51,7 +51,11 @@ export const Banner = () => {
             <span className="tagline">Welcome to my personal Portfolio!</span>
             <h1>
               Hi, I'm Mohamad Chreif! <br></br>
-              <span className="wrap">And I'm a {text}</span>
+              <div className="textContainer">
+                <span className="wrap">
+                  And I'm a <br></br> {text}
+                </span>
+              </div>
             </h1>
             <p>
               I'm Mohammad Chreif, a computer science graduate from the American
