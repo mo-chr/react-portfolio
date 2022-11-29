@@ -8,8 +8,8 @@ import restaurant from "../assets/img/restaurant.png";
 import easyBank from "../assets/img/easyBank.png";
 import dreamMovies from "../assets/img/dreamMovies.png";
 import TrackVisibility from "react-on-screen";
-import synctale from "../assets/img/Promogates-Maintenance-Page.png";
-import promogates from "../assets/img/Synctale-Landing-page.png";
+import promogates from "../assets/img/Promogates-Maintenance-Page.png";
+import synctale from "../assets/img/Synctale-Landing-page.png";
 export const Projects = () => {
   const projects = [
     {
