@@ -99,10 +99,10 @@ export const Projects = () => {
                       id="pills-tab"
                     >
                       <Nav.Item>
-                        <Nav.Link eventKey="first">Tab 1</Nav.Link>
+                        <Nav.Link eventKey="first">Newest Projects</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey="second">Tab 2</Nav.Link>
+                        <Nav.Link eventKey="second">Older Projects</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
                         <Nav.Link eventKey="third">Tab 3</Nav.Link>
@@ -116,23 +116,25 @@ export const Projects = () => {
                     >
                       <Tab.Pane eventKey="first">
                         <Row>
-                          {projects.slice(0, 6).map((project, index) => {
+                          {projects.slice(6, 12).map((project, index) => {
                             return <ProjectCard key={index} {...project} />;
                           })}
                         </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="second">
                         <Row>
-                          {projects.slice(6, 12).map((project, index) => {
+                          {projects.slice(0, 6).map((project, index) => {
                             return <ProjectCard key={index} {...project} />;
                           })}
                         </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="third">
-                        {projects.slice(12, 18).map((project, index) => {
-                          return <ProjectCard key={index} {...project} />;
-                        })}
-                        <p>More Projects coming soon...</p>
+                        <Row>
+                          <p>More Projects coming soon...</p>
+                          {projects.slice(12, 18).map((project, index) => {
+                            return <ProjectCard key={index} {...project} />;
+                          })}
+                        </Row>
                       </Tab.Pane>
                     </Tab.Content>
                   </Tab.Container>
