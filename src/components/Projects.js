@@ -116,15 +116,22 @@ export const Projects = () => {
                     >
                       <Tab.Pane eventKey="first">
                         <Row>
-                          {projects.map((project, index) => {
+                          {projects.slice(0, 6).map((project, index) => {
                             return <ProjectCard key={index} {...project} />;
                           })}
                         </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="second">
-                        <p>More Projects coming soon...</p>
+                        <Row>
+                          {projects.slice(6, 12).map((project, index) => {
+                            return <ProjectCard key={index} {...project} />;
+                          })}
+                        </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="third">
+                        {projects.slice(12, 18).map((project, index) => {
+                          return <ProjectCard key={index} {...project} />;
+                        })}
                         <p>More Projects coming soon...</p>
                       </Tab.Pane>
                     </Tab.Content>
