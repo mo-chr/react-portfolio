@@ -10,6 +10,7 @@ import dreamMovies from "../assets/img/dreamMovies.png";
 import TrackVisibility from "react-on-screen";
 import promogates from "../assets/img/Promogates-Maintenance-Page.png";
 import synctale from "../assets/img/Synctale-Landing-page.png";
+import UrbanStrom from "../assets/img/UrbanStorm.png";
 export const Projects = () => {
   const projects = [
     {
@@ -64,9 +65,16 @@ export const Projects = () => {
     {
       title: "PromoGates Maintenance Page",
       description:
-        " This worked on this as a part time job for the company in charge of PromoGate's website using desings provided.Technologies Used: JS,HTML5,CSS",
+        " Worked on this as a part time job for the company in charge of PromoGate's website using desings provided.Technologies Used: JS,HTML5,CSS",
       imgUrl: promogates,
       link: "https://promogates.pages.dev/",
+    },
+    {
+      title: "Urban Storm Website (In Progress...)",
+      description:
+        "Urban Storm is an online custom clothing shop that operates entirely on a server-less platform. It is built using React and Firebase, and features an integrated admin dashboard that allows for easy management of the store. All buttons and elements on the site are custom-made, giving it a unique and professional look.Technologies Used: React JS, Firebase, Node JS",
+      imgUrl: UrbanStrom,
+      link: "https://urbanstorm-website.pages.dev/",
     },
   ];
 

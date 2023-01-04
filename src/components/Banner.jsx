@@ -1,6 +1,6 @@
 import { Col, Container, Row } from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
-import headerImg from "../assets/img/header-img.svg";
+import headerImg from "../assets/img/header-img.png";
 import { useState, useEffect } from "react";
 
 export const Banner = () => {
@@ -58,13 +58,16 @@ export const Banner = () => {
               </div>
             </h1>
             <p>
-              I'm Mohammad Chreif, a computer science graduate from the American
-              University of Science and Technology. I'm currently based in
-              Beirut Lebanon. I have a strong interest in web development and
-              Java programming and I have experience working as a web developer
-              intern and an IT assistant. I'm also familiar with Python, C# and
-              Angular. In my spare time, I enjoy web design, photo and video
-              editing, and exploring new technologies.
+              My name is Mohammad Chreif and I am a recent computer science
+              graduate from the American University of Science and Technology
+              based in Beirut, Lebanon. I have a strong passion for programming
+              and algorithms, and have gained experience in web development
+              through my internship working with WordPress and Angular. In my
+              spare time, I enjoy staying sharp by solving algorithms and
+              problems on hacker rank, as well as exploring new technologies and
+              pursuing creative hobbies such as photo and video editing. I am
+              excited to continue my career in programming and bring my skills
+              and enthusiasm to the table.
             </p>
             {/*
               <button
